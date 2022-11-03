@@ -7,7 +7,7 @@ tags:
 - 6.824
 ---
 
-A lot of critical infrastructure out there is built by distributed systems. If you're designing a system, if you can possibly solve it with a single computer, without a distributed system, do that. It's **always** easier that way. Try everything else before a distributed system, because they're not simpler.
+The core of a **distributed system** is a set of cooperating computers that are communicating with each other over a network to get some coherent task done. Examples are storage, big data computations, and peer-to-peer file sharing. A lot of critical infrastructure out there is built by distributed systems. If you're designing a system, if you can possibly solve it with a single computer, do that. It's **always** easier that way. Try everything else before a distributed system, because they're not simpler.
 
 ## Reasons we use distributed systems
 1. Performance: How do I get 1000 computers to give me 1000x the compute?

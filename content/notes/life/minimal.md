@@ -1,6 +1,6 @@
 ---
 title: "Minimalistic Workout"
-enableToc: true
+enableToc: false
 date: 2022-11-03
 tags:
 - life

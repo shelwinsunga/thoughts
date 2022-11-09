@@ -1,7 +1,7 @@
 ---
 title: "Cow Signal"
 enableToc: false
-date: 2022-11-03
+date: 2022-11-09
 tags:
 - USACO
 - Bronze

@@ -9,5 +9,3 @@ A catalog of notes, thoughts, and other digital type that I have created or cons
 ### [MIT 6.824: Distributed Systems](tags/6.824)
 
 
-
-

@@ -16,3 +16,4 @@ There are three basic ingredients:
 - A monitor that looks at network traffic as it passes in and out of an unsuspecting router. This traffic is cached in memory for a short period of time.
 - An exporter that takes the recorded traffic data and puts it into a network management system
 - A collector that runs on the network management system to do things like visualize the data.  
+

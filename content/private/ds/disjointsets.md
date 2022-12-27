@@ -9,11 +9,6 @@ tags:
 
 
 ```
-
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-import java.util.ArrayList;
-
 class DisjointSet {
     ArrayList<ArrayList<Integer>> nums = new ArrayList<ArrayList<Integer>>();
     
@@ -46,22 +41,35 @@ class DisjointSet {
         for(int i = 0; i < nums.size(); i++){
             if(nums.get(i).contains(x)){
                 nums.get(i).add(y);
+                i++;
             } else if (nums.get(i).contains(y)){
                 nums.remove(i);
             }
         }    
     }
     
-    public bool isConnected(int x, int y){
-        
+    public boolean isConnected(int x, int y){
+         for(int i = 0; i < nums.size(); i++){
+             if(nums.get(i).contains(x) && nums.get(i).contains(y)){
+                 return true;
+             }
+         }
+         return false;
     }
     
-    
+
     
     public static void main(String[] args){
         DisjointSet set = new DisjointSet(10);
         set.printSet();
         set.connect(1,3);
+        set.printSet();
+        System.out.println(set.isConnected(4,6));
+        set.connect(3,7);
+        set.printSet();
+        System.out.println(set.isConnected(7,1));
+        set.printSet();
+        set.connect(2,7);
         set.printSet();
     }
     

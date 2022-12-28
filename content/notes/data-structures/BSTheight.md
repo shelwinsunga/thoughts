@@ -23,7 +23,7 @@ This is still true.
 
 Whereas, if I say a binary tree's height is $\Theta(log(n))$, what I'm saying in english is
 
-> The height of a binary trees grows equal to log(n) in the worst case.
+> The height of a binary trees grows equal to $log(n)$ in the best case ($n$ in the worst case).
 
 Note that Big-O is still useful. In the real world, Big-O is shorthand for "in the worst case". 
 - It allows us to make simple blanket statements

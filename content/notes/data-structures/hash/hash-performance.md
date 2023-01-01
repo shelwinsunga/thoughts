@@ -29,6 +29,5 @@ One thing to note is that when we do our resizing, items in our table will shuff
 - Most `add` operations will take $O(1)$ time. Some will take $O(N)$ time to resize.
 -  Also, the specific load factor constant doesn't matter. We will still get $O(1)$ time.
 
-
 More specifically, with resizing, `contains` ia $\Theta(1)^{†}$ and `add` is $\Theta(1)^{* †}$. `†` means that we assume items are evenly spread, and `*` means "on average".
 

@@ -4,7 +4,6 @@ enableToc: false
 date: 2023-01-03
 tags:
 - Scalability
-- Systems
 - Software
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Number Representation"
 enableToc: true
-date: 2023-01-11
+date: 2023-01-28
 tags:
-- Stats-110
+- 61C
 ---
 
 The real world is composed of analog data. As computer scientists, we want to turn that into digital data so we can do things with it.

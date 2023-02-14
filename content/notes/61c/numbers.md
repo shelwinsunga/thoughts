@@ -86,6 +86,3 @@ Hex: If human is looking at long strips of binary numbers, it's easier to read h
 Binary: Computers will use binary.   
 
 
-# 
-
-

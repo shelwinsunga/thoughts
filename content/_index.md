@@ -9,6 +9,7 @@ A catalog of notes, thoughts, and other digital type that I have created or cons
 ### [† MIT 6.824: Distributed Systems](tags/6.824)
 ### [CS61B: Data Structures and Algorithms](tags/Data-Structures)
 ### [Stats 110: Probability](tags/Stats-110)
+### [CMU 15-445/645: Database Systems](tags/Databases)
 
 
 

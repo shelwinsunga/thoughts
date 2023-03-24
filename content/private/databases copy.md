@@ -3,7 +3,7 @@ title: "Great Idea"
 enableToc: false
 date: 2022-11-0
 tags:
-- 61C
+  - 61C
 ---
 
 # Great Ideas in Computer Architecture

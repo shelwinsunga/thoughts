@@ -1,9 +1,9 @@
 ---
 title: "Number Representation"
-enableToc: true
+enableToc: false
 date: 2023-01-28
 tags:
-- 61C
+  - 61C
 ---
 
 The real world is composed of analog data. As computer scientists, we want to turn that into digital data so we can do things with it.
@@ -27,7 +27,7 @@ Typically when we say something is $N$ bits, we mean it's $2^N$ different values
 
 We use base 10 because we have 10 fingers. In base 10, we have 10 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. We can use these digits to represent any number. For example, 1234 as $1 \times 10^3 + 2 \times 10^2 + 3 \times 10^1 + 4 \times 10^0$.
 
-##  Base 2
+## Base 2
 
 In base 2, we have 2 digits: 0 and 1. We can use these digits to represent any number. We denote we're using binary by putting a `0b` in front of the number. So `0b1010` is 10.
 
@@ -35,7 +35,7 @@ For example, 1010 as $1 \times 2^3 + 0 \times 2^2 + 1 \times 2^1 + 0 \times 2^0$
 
 ## Base 16
 
-This is called Hexadecimal. We have 16 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. We can use these digits to represent any number. 
+This is called Hexadecimal. We have 16 digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. We can use these digits to represent any number.
 
 We denote we're using hexadecimal by putting a `0x` in front of the number. So `0x10` is 16.
 
@@ -46,7 +46,7 @@ We denote we're using hexadecimal by putting a `0x` in front of the number. So `
 Always left pad with 0s to make it a multiple of 4. Then convert 4 bits at a time using the table below.
 
 | Binary | Hex |
-|--------|-----|
+| ------ | --- |
 | 0000   | 0   |
 | 0001   | 1   |
 | 0010   | 2   |
@@ -70,19 +70,16 @@ For example, `0b1010` is `0xA`. `0b11110` needs to be left padded with 0s to mak
 
 From Hex to Binary is the same process, but in reverse. Just drop leading 0s.
 
-
 # Decimal vs Hex vs Binary
 
 4 bits is called a nibble. 8 bits is called a byte.
 
-1 hex digit is 16 things. 2 hex digits is 256 things. 
+1 hex digit is 16 things. 2 hex digits is 256 things.
 
-Color is usually 0-255 red, 0-255 green, 0-255 blue. This means it's 6 hex digits. 
+Color is usually 0-255 red, 0-255 green, 0-255 blue. This means it's 6 hex digits.
 
 # Which base do we use?
 
 Decimal: Humans
-Hex: If human is looking at long strips of binary numbers, it's easier to read hex. 
-Binary: Computers will use binary.   
-
-
+Hex: If human is looking at long strips of binary numbers, it's easier to read hex.
+Binary: Computers will use binary.

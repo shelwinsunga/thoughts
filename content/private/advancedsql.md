@@ -39,8 +39,8 @@ _Get # of students with a "@cs" login:_
     SELECT COUNT(1) FROM students WHERE email LIKE '%@cs%';
 ```
 
-There also DISTINCT aggregates, in which we only get unique values. 
+There also DISTINCT aggregates, in which we only get unique values.
 
 ## String Operations
 
-
+Different SQL standards will be case sensitive or case insensitive, and will have single quotes or double quotes. Most are case sensitive, and use single quotes.

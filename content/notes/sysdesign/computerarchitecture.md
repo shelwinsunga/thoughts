@@ -30,7 +30,6 @@ While we know that the CPU can write to RAM in terms of microseconds, we can go 
 
 The drawback of cache and RAM is persistence: if we turn off the computer, all the data in the cache and RAM will be lost. So we need to store it somewhere else (the disk).
 
-
 This is a high level overview of how computers, and when it comes to designing distributed systems, we'll find parallels from how a single computer works to how a distributed system works.
 
 One of the bottlenecks is CPU - how fast we execute our code. Moore's law says that every 2 years, the number of transistors on a chip will double. However, this is plateauing, and we're seeing diminishing returns.

@@ -1,7 +1,7 @@
 ---
 title: "Application Architecture"
 enableToc: false
-date: 2023-04-04
+date: 2023-04-06
 tags:
   - Systems
 ---
